@@ -4,6 +4,7 @@ module.exports = {
 		"browser": true,
 		"es2020": true,
 	},
+	"parser": "babel-eslint",
 	"extends": "eslint:recommended",
 	"globals": {},
 	"parserOptions": {
@@ -24,5 +25,5 @@ module.exports = {
 		"no-constant-condition": ["warn", {
 			"checkLoops": false,
 		}],
-	}
+	},
 };
