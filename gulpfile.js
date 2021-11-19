@@ -29,6 +29,7 @@ const browserifyInstance = browserify({
 	})
 	.transform(babelify.configure({ // transpile es6+ code
 		presets: ["@babel/preset-env"],
+		plugins: ["@babel/plugin-proposal-class-properties"],
 		sourceMaps: true,
 	}));
 
